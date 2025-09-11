@@ -1,5 +1,7 @@
-# Project01 - Open AI를 활용한 은행상품판매를 위한 상품관리페이지 및 고객상품 안내페이지 개발
+# BNK Reframe
+### Open AI를 활용한 은행상품판매를 위한 상품관리페이지 및 고객상품 안내페이지 개발
 
+- 본 프로젝트는 **부산은행 KDT 과정에서 진행한 1차 프로젝트**입니다.
 - 유형: 팀 프로젝트(5인)
 - 기간: 2025.06.24 ~ 2025.07.24
 
@@ -49,10 +51,16 @@
 - 결재 프로세스 (상품 등록/수정 시 상위 관리자 승인)  
 - 방문자 통계, 리뷰 분석, 인기 상품 Top 10
 
+## 📹 시연 영상
+- 사용자 페이지: [https://youtu.be/tXddm06Cv08](https://youtu.be/tXddm06Cv08)
+  
+- 관리자 페이지: [https://youtu.be/1cTyh9qARng](https://youtu.be/1cTyh9qARng)
+
+
 ## 📚 DB 설계
 <img src="docs/bnk1_erd.png" alt="ERD 다이어그램" width="500"/>
 
-> ERD 이미지 원본: [docs/bnk1_erd.png](docs/bnk1_erd.png)
+> ERD 이미지 : [docs/bnk1_erd.png](docs/bnk1_erd.png)
 
 ## 📚 유스케이스
 ### 사용자
