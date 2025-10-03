@@ -1,9 +1,15 @@
 package com.example.reframe.dto;
 
+import java.time.LocalDate;
+
+import com.example.reframe.enums.Gender;
+
 import lombok.Data;
 
 @Data
 public class UserDTO {
+	
+	private Long id;			// 회원 고유 식별 ID
 	
 	private String username;	// 회원 아이디
 	
@@ -18,4 +24,14 @@ public class UserDTO {
 	private String usertype;	// 회원 타입		// 1: 개인, 2: 기업
 	
 	private String role;		// 회원 역할		// 회원: ROLE_MEMBER
+	
+	private String gender;		// 회원 성별
+	
+	private LocalDate birth;		// 회원 생년월일
+	
+	public Gender toGenderEnum() {
+		if (gender == null || gender.isBlank()) return null;
+		
+		return Gender.valueOf(gender);
+	}
 }

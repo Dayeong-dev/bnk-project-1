@@ -31,7 +31,7 @@ public class QnaController {
 	
 	@PostMapping("/qnaRegist")
 	public String registBoard(Qna qna, RedirectAttributes redirectAttributes,@AuthenticationPrincipal CustomUserDetails user) {
-		User user1 = userRepository.findById(user.getUsername())
+		User user1 = userRepository.findById(user.getId())
               .orElseThrow(() -> new RuntimeException("로그인된 사용자 없음"));
 		qna.setUser(user1);
 		qnaRepository.save(qna);

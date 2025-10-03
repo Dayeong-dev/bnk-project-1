@@ -7,7 +7,7 @@ public class CorpUserMapper {
 	public CorporateUser toEntity(CorporateUserDTO corpUserDTO) {
 		CorporateUser corpUser = new CorporateUser();
 		
-		corpUser.setUsername(corpUserDTO.getUsername());
+		corpUser.setUserId(corpUserDTO.getUserId());
 		corpUser.setUser(corpUserDTO.getUser());
 		corpUser.setBusinessNumber(corpUserDTO.getBusinessNumber());
 		corpUser.setBusinessStartDate(corpUserDTO.getBusinessStartDate());
@@ -19,7 +19,7 @@ public class CorpUserMapper {
 	public CorporateUserDTO toDTO(CorporateUser corpUser) {
 		CorporateUserDTO corpUserDTO = new CorporateUserDTO();
 		
-		corpUserDTO.setUsername(corpUser.getUsername());
+		corpUserDTO.setUserId(corpUser.getUserId());
 		corpUserDTO.setUser(corpUser.getUser());
 		corpUserDTO.setBusinessNumber(corpUser.getBusinessNumber());
 		corpUserDTO.setBusinessStartDate(corpUser.getBusinessStartDate());

@@ -40,7 +40,7 @@ public class ReviewController {
 	public ResponseEntity<String> submitReview(@RequestBody ReviewDTO dto, 
 	                                           @AuthenticationPrincipal CustomUserDetails user) {
 	    // 유저 정보 확인 및 리뷰 저장
-	    User user1 = userRepository.findById(user.getUsername())
+	    User user1 = userRepository.findById(user.getId())
 	            .orElseThrow(() -> new RuntimeException("유저를 찾을 수 없습니다"));
 
 	    Review review = Review.builder()

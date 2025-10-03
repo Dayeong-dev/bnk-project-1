@@ -26,12 +26,8 @@ public class Review extends BaseEntity {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
     @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "username")
+    @JoinColumn(name = "user_id", referencedColumnName = "id")
     private User user;
     private String content;
     private boolean negative;  // 부정 여부
-    
-    
-    
-    
 }

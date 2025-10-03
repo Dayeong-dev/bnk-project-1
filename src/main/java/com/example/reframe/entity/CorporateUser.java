@@ -16,11 +16,11 @@ import lombok.Data;
 @Data
 public class CorporateUser {
 	@Id
-	private String username;
+	private Long userId;
 	
 	@OneToOne(fetch = FetchType.LAZY)
 	@MapsId
-	@JoinColumn(name = "username")
+	@JoinColumn(name = "user_id", referencedColumnName = "id")
 	private User user;					// 회원 아이디(PFK)
 	
 	@NotNull

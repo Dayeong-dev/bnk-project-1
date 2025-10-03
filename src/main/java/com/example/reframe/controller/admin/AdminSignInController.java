@@ -97,7 +97,7 @@ public class AdminSignInController {
 				session.removeAttribute("authCode"); 
 				
 				// 관리자의 등급 확인
-				User user = userRepository.findByUsername(username);
+				User user = userRepository.findByUsername(username).orElse(null);
 			    
 				// Security 연동
 			    UsernamePasswordAuthenticationToken auth = new UsernamePasswordAuthenticationToken(

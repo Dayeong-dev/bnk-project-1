@@ -25,7 +25,7 @@ public class AdminSignInService {
 	private JavaMailSender javaMailSender;
 	
 	public boolean validateUsernameAndPassword(String username, String password) {
-        User user = userRepository.findByUsername(username);
+        User user = userRepository.findByUsername(username).orElse(null);
 
         if (user == null) {
         	return false;
@@ -37,7 +37,7 @@ public class AdminSignInService {
     }
 
     public boolean validateEmail(String username, String email) {
-        User user = userRepository.findByUsername(username);
+        User user = userRepository.findByUsername(username).orElse(null);
 
         if (user == null) {
         	return false;

@@ -66,7 +66,7 @@ public class UserService {
 	
 	// 아이디 중복체크
 	public boolean checkUsername(String username) {
-		Optional<User> user = userRepository.findById(username);
+		Optional<User> user = userRepository.findByUsername(username);
 		
 		if(user.isEmpty()) {
 			return true;
@@ -150,7 +150,7 @@ public class UserService {
 		return corpList.stream().map(corp -> {
 			CorporateDTO dto = new CorporateDTO();
 
-			dto.setUsername(corp.getUsername());
+			dto.setUserId(corp.getUserId());
 			dto.setBusinessNumber(corp.getBusinessNumber());
 			dto.setBusinessStartDate(corp.getBusinessStartDate());
 			dto.setCeoName(corp.getCeoName());
@@ -166,18 +166,16 @@ public class UserService {
 
 	public void updateRoles(List<UserDTO> roleList) {
 	    for (UserDTO dto : roleList) {
-	        User user = userRepository.findByUsername(dto.getUsername());
+	        User user = userRepository.findByUsername(dto.getUsername()).orElseThrow(
+	        		() -> new IllegalArgumentException("사용자를 찾을 수 없습니다: " + dto.getUsername()));
 	        
-	        if (user == null) {
-	            throw new IllegalArgumentException("사용자를 찾을 수 없습니다: " + dto.getUsername());
-	        }
 	        user.setRole(dto.getRole());
 	        userRepository.save(user);
 	    }
 	}
 	
 	public UserDTO signin(UserDTO userDTO) {
-		User user = userRepository.findByUsername(userDTO.getUsername());
+		User user = userRepository.findByUsername(userDTO.getUsername()).orElse(null);
 		
 		if(user == null || !bCryptPasswordEncoder.matches(userDTO.getPassword(), user.getPassword())) {
 			return null;
