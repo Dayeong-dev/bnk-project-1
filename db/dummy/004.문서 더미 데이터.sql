@@ -34,6 +34,12 @@ INSERT INTO bnk_document (moddate, regdate, document_type, filename, product_typ
 INSERT INTO bnk_document (moddate, regdate, document_type, filename, product_type, title) VALUES
 (SYSTIMESTAMP, SYSTIMESTAMP, 'T', '1760343501520_예금거래기본약관', '예적금', '예금거래기본약관');
 
+INSERT INTO bnk_document (moddate, regdate, document_type, filename, product_type, title) VALUES
+(SYSTIMESTAMP, SYSTIMESTAMP, 'T', '1760448664433_LIVE_정기예금_약관', '예적금', 'LIVE 정기예금 약관');
+
+INSERT INTO bnk_document (moddate, regdate, document_type, filename, product_type, title) VALUES
+(SYSTIMESTAMP, SYSTIMESTAMP, 'M', '1760448698123_LIVE_정기예금_상품설명서', '예적금', 'LIVE 정기예금 상품설명서');
+
 
 -- 아이사랑적금 약관/상품설명서
 UPDATE DEPOSIT_PRODUCT SET TERM_ID = 10, MANUAL_ID = 11 WHERE PRODUCT_ID = 6;
@@ -49,6 +55,9 @@ UPDATE DEPOSIT_PRODUCT SET TERM_ID = 3, MANUAL_ID = 4 WHERE PRODUCT_ID = 62;
 
 -- 매일출석적금 약관/상품설명서
 UPDATE DEPOSIT_PRODUCT SET TERM_ID = 6, MANUAL_ID = 5 WHERE PRODUCT_ID = 63;
+
+-- LIVE 정기예금 약관/상품설명서
+UPDATE DEPOSIT_PRODUCT SET TERM_ID = 25, MANUAL_ID = 26 WHERE PRODUCT_ID = 21;
 
 COMMIT;
 
