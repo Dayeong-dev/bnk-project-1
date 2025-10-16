@@ -1,6 +1,8 @@
 SET DEFINE OFF;
 
+-- 1: 부산형 내일채움공제적금
 INSERT INTO DEPOSIT_PRODUCT (
+    PRODUCT_ID,
     NAME,
     CATEGORY,
     PURPOSE,
@@ -15,6 +17,7 @@ INSERT INTO DEPOSIT_PRODUCT (
     CREATED_AT,
     VIEW_COUNT
 ) VALUES (
+    1,
     '부산형 내일채움공제적금',
     '적금',
     '목돈마련',
@@ -57,7 +60,10 @@ INSERT INTO DEPOSIT_PRODUCT (
     NULL, NULL, 4.00, 3.80, 12, 'S', SYSDATE, 0
 );
 
+
+-- 2: BNK내맘대로적금
 INSERT INTO DEPOSIT_PRODUCT (
+    PRODUCT_ID,
     NAME,
     CATEGORY,
     PURPOSE,
@@ -72,6 +78,7 @@ INSERT INTO DEPOSIT_PRODUCT (
     CREATED_AT,
     VIEW_COUNT
 ) VALUES (
+    2,
     'BNK내맘대로적금',
     '적금',
     '목돈마련',
@@ -114,7 +121,10 @@ INSERT INTO DEPOSIT_PRODUCT (
     NULL, NULL, 2.45, 2.25, 12, 'S', SYSDATE, 0
 );
 
+
+-- 3: 저탄소 실천 적금
 INSERT INTO DEPOSIT_PRODUCT (
+    PRODUCT_ID,
     NAME,
     CATEGORY,
     PURPOSE,
@@ -129,6 +139,7 @@ INSERT INTO DEPOSIT_PRODUCT (
     CREATED_AT,
     VIEW_COUNT
 ) VALUES (
+    3,
     '저탄소 실천 적금',
     '적금',
     '환경실천',
@@ -172,7 +183,9 @@ INSERT INTO DEPOSIT_PRODUCT (
 );
 
 
+-- 4: BNK지역사랑자유적금
 INSERT INTO DEPOSIT_PRODUCT (
+    PRODUCT_ID,
     NAME,
     CATEGORY,
     PURPOSE,
@@ -187,6 +200,7 @@ INSERT INTO DEPOSIT_PRODUCT (
     CREATED_AT,
     VIEW_COUNT
 ) VALUES (
+    4,
     'BNK지역사랑자유적금',
     '적금',
     '지역사회공헌',
@@ -229,7 +243,10 @@ INSERT INTO DEPOSIT_PRODUCT (
     NULL, NULL, 2.00, 1.90, 12, 'S', SYSDATE, 0
 );
 
+
+-- 5: 가계우대정기적금
 INSERT INTO DEPOSIT_PRODUCT (
+    PRODUCT_ID,
     NAME,
     CATEGORY,
     PURPOSE,
@@ -244,6 +261,7 @@ INSERT INTO DEPOSIT_PRODUCT (
     CREATED_AT,
     VIEW_COUNT
 ) VALUES (
+    5,
     '가계우대정기적금',
     '적금',
     '목돈마련',
@@ -277,7 +295,9 @@ INSERT INTO DEPOSIT_PRODUCT (
 );
 
 
+-- 6: 아이사랑 적금
 INSERT INTO DEPOSIT_PRODUCT (
+    PRODUCT_ID,
     NAME,
     CATEGORY,
     PURPOSE,
@@ -292,6 +312,7 @@ INSERT INTO DEPOSIT_PRODUCT (
     CREATED_AT,
     VIEW_COUNT
 ) VALUES (
+    6,
     '아이사랑 적금',
     '적금',
     '육아자금',
@@ -319,7 +340,10 @@ INSERT INTO DEPOSIT_PRODUCT (
     NULL, NULL, 7.00, 1.90, 12, 'S', SYSDATE, 150
 );
 
+
+-- 7: 아기천사 적금
 INSERT INTO DEPOSIT_PRODUCT (
+    PRODUCT_ID,
     NAME,
     CATEGORY,
     PURPOSE,
@@ -334,6 +358,7 @@ INSERT INTO DEPOSIT_PRODUCT (
     CREATED_AT,
     VIEW_COUNT
 ) VALUES (
+    7,
     '아기천사 적금',
     '적금',
     '육아자금',
@@ -371,7 +396,10 @@ INSERT INTO DEPOSIT_PRODUCT (
     NULL, NULL, 7.00, 1.90, 12, 'S', SYSDATE, 140
 );
 
+
+-- 8: 너만솔로 적금
 INSERT INTO DEPOSIT_PRODUCT (
+    PRODUCT_ID,
     NAME,
     CATEGORY,
     PURPOSE,
@@ -386,6 +414,7 @@ INSERT INTO DEPOSIT_PRODUCT (
     CREATED_AT,
     VIEW_COUNT
 ) VALUES (
+    8,
     '너만솔로 적금',
     '적금',
     '결혼자금',
@@ -423,7 +452,10 @@ INSERT INTO DEPOSIT_PRODUCT (
     NULL, NULL, 7.00, 1.90, 12, 'S', SYSDATE, 0
 );
 
+
+-- 9: 부산이라 좋다 Big적금
 INSERT INTO DEPOSIT_PRODUCT (
+    PRODUCT_ID,
     NAME,
     CATEGORY,
     PURPOSE,
@@ -438,6 +470,7 @@ INSERT INTO DEPOSIT_PRODUCT (
     CREATED_AT,
     VIEW_COUNT
 ) VALUES (
+    9,
     '부산이라 좋다 Big적금',
     '적금',
     '지역특화',
@@ -471,7 +504,9 @@ INSERT INTO DEPOSIT_PRODUCT (
 );
 
 
+-- 10: 꿈이룸 적금
 INSERT INTO DEPOSIT_PRODUCT (
+    PRODUCT_ID,
     NAME,
     CATEGORY,
     PURPOSE,
@@ -486,6 +521,7 @@ INSERT INTO DEPOSIT_PRODUCT (
     CREATED_AT,
     VIEW_COUNT
 ) VALUES (
+    10,
     '꿈이룸 적금',
     '적금',
     '자녀교육자금',
@@ -518,7 +554,10 @@ INSERT INTO DEPOSIT_PRODUCT (
     NULL, NULL, 2.85, 2.45, 24, 'S', SYSDATE, 0
 );
 
+
+-- 11: 부산은행 장병내일준비적금
 INSERT INTO DEPOSIT_PRODUCT (
+    PRODUCT_ID,
     NAME,
     CATEGORY,
     PURPOSE,
@@ -533,6 +572,7 @@ INSERT INTO DEPOSIT_PRODUCT (
     CREATED_AT,
     VIEW_COUNT
 ) VALUES (
+    11,
     '부산은행 장병내일준비적금',
     '적금',
     '군복무자금',
@@ -572,7 +612,10 @@ INSERT INTO DEPOSIT_PRODUCT (
     0
 );
 
+
+-- 12: 부산은행 청년도약계좌
 INSERT INTO DEPOSIT_PRODUCT (
+    PRODUCT_ID,
     NAME,
     CATEGORY,
     PURPOSE,
@@ -587,6 +630,7 @@ INSERT INTO DEPOSIT_PRODUCT (
     CREATED_AT,
     VIEW_COUNT
 ) VALUES (
+    12,
     '부산은행 청년도약계좌',
     '적금',
     '청년자립자금',
@@ -626,7 +670,10 @@ INSERT INTO DEPOSIT_PRODUCT (
     0
 );
 
+
+-- 13: 펫 적금
 INSERT INTO DEPOSIT_PRODUCT (
+    PRODUCT_ID,
     NAME, 
     CATEGORY, 
     PURPOSE, 
@@ -641,6 +688,7 @@ INSERT INTO DEPOSIT_PRODUCT (
     CREATED_AT, 
     VIEW_COUNT
 ) VALUES (
+    13,
     '펫 적금',
     '적금',
     '목돈마련',
@@ -690,7 +738,10 @@ INSERT INTO DEPOSIT_PRODUCT (
     0
 );
 
+
+-- 14: BNK희망가꾸기적금
 INSERT INTO DEPOSIT_PRODUCT (
+    PRODUCT_ID,
     NAME,
     CATEGORY,
     PURPOSE,
@@ -705,6 +756,7 @@ INSERT INTO DEPOSIT_PRODUCT (
     CREATED_AT,
     VIEW_COUNT
 ) VALUES (
+    14,
     'BNK희망가꾸기적금',
     '적금',
     '목돈마련',
@@ -754,7 +806,10 @@ INSERT INTO DEPOSIT_PRODUCT (
     0
 );
 
+
+-- 15: 백세청춘 실버적금
 INSERT INTO DEPOSIT_PRODUCT (
+    PRODUCT_ID,
     NAME,
     CATEGORY,
     PURPOSE,
@@ -769,6 +824,7 @@ INSERT INTO DEPOSIT_PRODUCT (
     CREATED_AT,
     VIEW_COUNT
 ) VALUES (
+    15,
     '백세청춘 실버적금',
     '적금',
     '시니어',
@@ -803,7 +859,10 @@ INSERT INTO DEPOSIT_PRODUCT (
     0
 );
 
+
+-- 16: 상호부금
 INSERT INTO DEPOSIT_PRODUCT (
+    PRODUCT_ID,
     NAME,
     CATEGORY,
     PURPOSE,
@@ -818,6 +877,7 @@ INSERT INTO DEPOSIT_PRODUCT (
     CREATED_AT,
     VIEW_COUNT
 ) VALUES (
+    16,
     '상호부금',
     '부금',
     '목돈마련',
@@ -852,7 +912,10 @@ INSERT INTO DEPOSIT_PRODUCT (
     0
 );
 
+
+-- 17: 정기적금
 INSERT INTO DEPOSIT_PRODUCT (
+    PRODUCT_ID,
     NAME,
     CATEGORY,
     PURPOSE,
@@ -867,6 +930,7 @@ INSERT INTO DEPOSIT_PRODUCT (
     CREATED_AT,
     VIEW_COUNT
 ) VALUES (
+    17,
     '정기적금',
     '적금',
     '목돈마련',
@@ -901,7 +965,10 @@ INSERT INTO DEPOSIT_PRODUCT (
     0
 );
 
+
+-- 18: BNK내맘대로예금
 INSERT INTO DEPOSIT_PRODUCT (
+    PRODUCT_ID,
     NAME,
     CATEGORY,
     PURPOSE,
@@ -916,6 +983,7 @@ INSERT INTO DEPOSIT_PRODUCT (
     CREATED_AT,
     VIEW_COUNT
 ) VALUES (
+    18,
     'BNK내맘대로예금',
     '예금',
     '목돈마련',
@@ -951,7 +1019,9 @@ INSERT INTO DEPOSIT_PRODUCT (
 );
 
 
+-- 19: 저탄소 실천 예금
 INSERT INTO DEPOSIT_PRODUCT (
+    PRODUCT_ID,
     NAME,
     CATEGORY,
     PURPOSE,
@@ -966,6 +1036,7 @@ INSERT INTO DEPOSIT_PRODUCT (
     CREATED_AT,
     VIEW_COUNT
 ) VALUES (
+    19,
     '저탄소 실천 예금',
     '예금',
     '환경실천',
@@ -1000,7 +1071,10 @@ INSERT INTO DEPOSIT_PRODUCT (
     0
 );
 
+
+-- 20: 더(The) 특판 정기예금
 INSERT INTO DEPOSIT_PRODUCT (
+    PRODUCT_ID,
     NAME,
     CATEGORY,
     PURPOSE,
@@ -1015,6 +1089,7 @@ INSERT INTO DEPOSIT_PRODUCT (
     CREATED_AT,
     VIEW_COUNT
 ) VALUES (
+    20,
     '더(The) 특판 정기예금',
     '예금',
     '목돈굴리기',
@@ -1034,7 +1109,10 @@ INSERT INTO DEPOSIT_PRODUCT (
     0
 );
 
+
+-- 21: LIVE 정기예금
 INSERT INTO DEPOSIT_PRODUCT (
+    PRODUCT_ID,
     NAME,
     CATEGORY,
     PURPOSE,
@@ -1049,6 +1127,7 @@ INSERT INTO DEPOSIT_PRODUCT (
     CREATED_AT,
     VIEW_COUNT
 ) VALUES (
+    21,
     'LIVE 정기예금',
     '예금',
     '목돈굴리기',
@@ -1083,7 +1162,10 @@ INSERT INTO DEPOSIT_PRODUCT (
     0
 );
 
+
+-- 22: 메리트정기예금
 INSERT INTO DEPOSIT_PRODUCT (
+    PRODUCT_ID,
     NAME,
     CATEGORY,
     PURPOSE,
@@ -1098,6 +1180,7 @@ INSERT INTO DEPOSIT_PRODUCT (
     CREATED_AT,
     VIEW_COUNT
 ) VALUES (
+    22,
     '메리트정기예금',
     '예금',
     '목돈굴리기',
@@ -1117,7 +1200,10 @@ INSERT INTO DEPOSIT_PRODUCT (
     0
 );
 
+
+-- 23: 더(The) 레벨업 정기예금
 INSERT INTO DEPOSIT_PRODUCT (
+    PRODUCT_ID,
     NAME,
     CATEGORY,
     PURPOSE,
@@ -1132,6 +1218,7 @@ INSERT INTO DEPOSIT_PRODUCT (
     CREATED_AT,
     VIEW_COUNT
 ) VALUES (
+    23,
     '더(The) 레벨업 정기예금',
     '예금',
     '목돈굴리기',
@@ -1166,7 +1253,10 @@ INSERT INTO DEPOSIT_PRODUCT (
     0
 );
 
+
+-- 24: 장기회전정기예금
 INSERT INTO DEPOSIT_PRODUCT (
+    PRODUCT_ID,
     NAME,
     CATEGORY,
     PURPOSE,
@@ -1181,6 +1271,7 @@ INSERT INTO DEPOSIT_PRODUCT (
     CREATED_AT,
     VIEW_COUNT
 ) VALUES (
+    24,
     '장기회전정기예금',
     '예금',
     '목돈굴리기',
@@ -1215,7 +1306,10 @@ INSERT INTO DEPOSIT_PRODUCT (
     0
 );
 
+
+-- 25: 마이플랜 ISA 정기예금
 INSERT INTO DEPOSIT_PRODUCT (
+    PRODUCT_ID,
     NAME,
     CATEGORY,
     PURPOSE,
@@ -1230,6 +1324,7 @@ INSERT INTO DEPOSIT_PRODUCT (
     CREATED_AT,
     VIEW_COUNT
 ) VALUES (
+    25,
     '마이플랜 ISA 정기예금',
     '예금',
     'ISA',
@@ -1264,7 +1359,10 @@ INSERT INTO DEPOSIT_PRODUCT (
     0
 );
 
+
+-- 26: 마이플랜 퇴직연금 정기예금
 INSERT INTO DEPOSIT_PRODUCT (
+    PRODUCT_ID,
     NAME,
     CATEGORY,
     PURPOSE,
@@ -1279,6 +1377,7 @@ INSERT INTO DEPOSIT_PRODUCT (
     CREATED_AT,
     VIEW_COUNT
 ) VALUES (
+    26,
     '마이플랜 퇴직연금 정기예금',
     '예금',
     '퇴직연금',
@@ -1313,7 +1412,10 @@ INSERT INTO DEPOSIT_PRODUCT (
     0
 );
 
+
+-- 27: 정기예금
 INSERT INTO DEPOSIT_PRODUCT (
+    PRODUCT_ID,
     NAME,
     CATEGORY,
     PURPOSE,
@@ -1328,6 +1430,7 @@ INSERT INTO DEPOSIT_PRODUCT (
     CREATED_AT,
     VIEW_COUNT
 ) VALUES (
+    27,
     '정기예금',
     '예금',
     '목돈굴리기',
@@ -1362,7 +1465,10 @@ INSERT INTO DEPOSIT_PRODUCT (
     0
 );
 
+
+-- 28: 환매조건부매도
 INSERT INTO DEPOSIT_PRODUCT (
+    PRODUCT_ID,
     NAME,
     CATEGORY,
     PURPOSE,
@@ -1377,6 +1483,7 @@ INSERT INTO DEPOSIT_PRODUCT (
     CREATED_AT,
     VIEW_COUNT
 ) VALUES (
+    28,
     '환매조건부매도',
     '예금',
     '단기자금운용',
@@ -1411,7 +1518,10 @@ INSERT INTO DEPOSIT_PRODUCT (
     0
 );
 
+
+-- 29: 표지어음매출
 INSERT INTO DEPOSIT_PRODUCT (
+    PRODUCT_ID,
     NAME,
     CATEGORY,
     PURPOSE,
@@ -1426,6 +1536,7 @@ INSERT INTO DEPOSIT_PRODUCT (
     CREATED_AT,
     VIEW_COUNT
 ) VALUES (
+    29,
     '표지어음매출',
     '예금',
     '단기자금운용',
@@ -1460,7 +1571,10 @@ INSERT INTO DEPOSIT_PRODUCT (
     0
 );
 
+
+-- 30: 회전플러스 정기예금
 INSERT INTO DEPOSIT_PRODUCT (
+    PRODUCT_ID,
     NAME,
     CATEGORY,
     PURPOSE,
@@ -1475,6 +1589,7 @@ INSERT INTO DEPOSIT_PRODUCT (
     CREATED_AT,
     VIEW_COUNT
 ) VALUES (
+    30,
     '회전플러스 정기예금',
     '예금',
     '단기자금운용',
@@ -1509,7 +1624,10 @@ INSERT INTO DEPOSIT_PRODUCT (
     0
 );
 
+
+-- 31: 백세청춘 실버정기예금
 INSERT INTO DEPOSIT_PRODUCT (
+    PRODUCT_ID,
     NAME,
     CATEGORY,
     PURPOSE,
@@ -1524,6 +1642,7 @@ INSERT INTO DEPOSIT_PRODUCT (
     CREATED_AT,
     VIEW_COUNT
 ) VALUES (
+    31,
     '백세청춘 실버정기예금',
     '예금',
     '시니어',
@@ -1558,7 +1677,10 @@ INSERT INTO DEPOSIT_PRODUCT (
     0
 );
 
+
+-- 32: 양도성 예금증서
 INSERT INTO DEPOSIT_PRODUCT (
+    PRODUCT_ID,
     NAME,
     CATEGORY,
     PURPOSE,
@@ -1573,6 +1695,7 @@ INSERT INTO DEPOSIT_PRODUCT (
     CREATED_AT,
     VIEW_COUNT
 ) VALUES (
+    32,
     '양도성 예금증서',
     '예금',
     '단기운용',
@@ -1608,7 +1731,9 @@ INSERT INTO DEPOSIT_PRODUCT (
 );
 
 
+-- 33: 사장님 월급통장
 INSERT INTO DEPOSIT_PRODUCT (
+    PRODUCT_ID,
     NAME,
     CATEGORY,
     PURPOSE,
@@ -1623,6 +1748,7 @@ INSERT INTO DEPOSIT_PRODUCT (
     CREATED_AT,
     VIEW_COUNT
 ) VALUES (
+    33,
     '사장님 월급통장',
     '입출금자유',
     '사업자전용',
@@ -1672,7 +1798,10 @@ INSERT INTO DEPOSIT_PRODUCT (
     0
 );
 
+
+-- 34: BNK Welcome Global 통장
 INSERT INTO DEPOSIT_PRODUCT (
+    PRODUCT_ID,
     NAME,
     CATEGORY,
     PURPOSE,
@@ -1687,6 +1816,7 @@ INSERT INTO DEPOSIT_PRODUCT (
     CREATED_AT,
     VIEW_COUNT
 ) VALUES (
+    34,
     'BNK Welcome Global 통장',
     '입출금자유',
     '외국인전용',
@@ -1736,7 +1866,10 @@ INSERT INTO DEPOSIT_PRODUCT (
     0
 );
 
+
+-- 35: 동백통장
 INSERT INTO DEPOSIT_PRODUCT (
+    PRODUCT_ID,
     NAME,
     CATEGORY,
     PURPOSE,
@@ -1751,6 +1884,7 @@ INSERT INTO DEPOSIT_PRODUCT (
     CREATED_AT,
     VIEW_COUNT
 ) VALUES (
+    35,
     '동백통장',
     '입출금자유',
     '지역화폐 연계',
@@ -1800,7 +1934,10 @@ INSERT INTO DEPOSIT_PRODUCT (
     0
 );
 
+
+-- 36: 모임통장
 INSERT INTO DEPOSIT_PRODUCT (
+    PRODUCT_ID,
     NAME,
     CATEGORY,
     PURPOSE,
@@ -1815,6 +1952,7 @@ INSERT INTO DEPOSIT_PRODUCT (
     CREATED_AT,
     VIEW_COUNT
 ) VALUES (
+    36,
     '모임통장',
     '입출금자유',
     '모임자금관리',
@@ -1864,7 +2002,10 @@ INSERT INTO DEPOSIT_PRODUCT (
     0
 );
 
+
+-- 37: BNK사학연금 평생안심통장
 INSERT INTO DEPOSIT_PRODUCT (
+    PRODUCT_ID,
     NAME,
     CATEGORY,
     PURPOSE,
@@ -1879,6 +2020,7 @@ INSERT INTO DEPOSIT_PRODUCT (
     CREATED_AT,
     VIEW_COUNT
 ) VALUES (
+    37,
     'BNK사학연금 평생안심통장',
     '입출금자유',
     '사학연금전용',
@@ -1927,7 +2069,11 @@ INSERT INTO DEPOSIT_PRODUCT (
     SYSDATE,
     0
 );
+
+
+-- 38: 마!이통장
 INSERT INTO DEPOSIT_PRODUCT (
+    PRODUCT_ID,
     NAME,
     CATEGORY,
     PURPOSE,
@@ -1942,6 +2088,7 @@ INSERT INTO DEPOSIT_PRODUCT (
     CREATED_AT,
     VIEW_COUNT
 ) VALUES (
+    38,
     '마!이통장',
     '입출금자유',
     'MZ세대전용',
@@ -1991,7 +2138,10 @@ INSERT INTO DEPOSIT_PRODUCT (
     0
 );
 
+
+-- 39: BNK주택연금 지킴이 통장
 INSERT INTO DEPOSIT_PRODUCT (
+    PRODUCT_ID,
     NAME,
     CATEGORY,
     PURPOSE,
@@ -2006,6 +2156,7 @@ INSERT INTO DEPOSIT_PRODUCT (
     CREATED_AT,
     VIEW_COUNT
 ) VALUES (
+    39,
     'BNK주택연금 지킴이 통장',
     '입출금자유',
     '주택연금수급자전용',
@@ -2055,7 +2206,10 @@ INSERT INTO DEPOSIT_PRODUCT (
     0
 );
 
+
+-- 40: 기업자유예금
 INSERT INTO DEPOSIT_PRODUCT (
+    PRODUCT_ID,
     NAME,
     CATEGORY,
     PURPOSE,
@@ -2070,6 +2224,7 @@ INSERT INTO DEPOSIT_PRODUCT (
     CREATED_AT,
     VIEW_COUNT
 ) VALUES (
+    40,
     '기업자유예금',
     '입출금자유',
     '기업자금운용',
@@ -2119,7 +2274,10 @@ INSERT INTO DEPOSIT_PRODUCT (
     0
 );
 
+
+-- 41: 보통예금
 INSERT INTO DEPOSIT_PRODUCT (
+    PRODUCT_ID,
     NAME,
     CATEGORY,
     PURPOSE,
@@ -2134,6 +2292,7 @@ INSERT INTO DEPOSIT_PRODUCT (
     CREATED_AT,
     VIEW_COUNT
 ) VALUES (
+    41,
     '보통예금',
     '입출금자유',
     '일반자금관리',
@@ -2183,7 +2342,10 @@ INSERT INTO DEPOSIT_PRODUCT (
     0
 );
 
+
+-- 42: Only One 통장 (개인사업자)
 INSERT INTO DEPOSIT_PRODUCT (
+    PRODUCT_ID,
     NAME,
     CATEGORY,
     PURPOSE,
@@ -2198,6 +2360,7 @@ INSERT INTO DEPOSIT_PRODUCT (
     CREATED_AT,
     VIEW_COUNT
 ) VALUES (
+    42,
     'Only One 통장 (개인사업자)',
     '입출금자유',
     '사업자자금관리',
@@ -2247,7 +2410,10 @@ INSERT INTO DEPOSIT_PRODUCT (
     0
 );
 
+
+-- 43: 부산은행 군인연금 평생안심통장
 INSERT INTO DEPOSIT_PRODUCT (
+    PRODUCT_ID,
     NAME,
     CATEGORY,
     PURPOSE,
@@ -2262,6 +2428,7 @@ INSERT INTO DEPOSIT_PRODUCT (
     CREATED_AT,
     VIEW_COUNT
 ) VALUES (
+    43,
     '부산은행 군인연금 평생안심통장',
     '입출금자유',
     '연금수급자',
@@ -2311,7 +2478,10 @@ INSERT INTO DEPOSIT_PRODUCT (
     0
 );
 
+
+-- 44: Only One 기업통장
 INSERT INTO DEPOSIT_PRODUCT (
+    PRODUCT_ID,
     NAME,
     CATEGORY,
     PURPOSE,
@@ -2326,6 +2496,7 @@ INSERT INTO DEPOSIT_PRODUCT (
     CREATED_AT,
     VIEW_COUNT
 ) VALUES (
+    44,
     'Only One 기업통장',
     '입출금자유',
     '기업자금관리',
@@ -2375,7 +2546,10 @@ INSERT INTO DEPOSIT_PRODUCT (
     0
 );
 
+
+-- 45: Only One 통장 (개인)
 INSERT INTO DEPOSIT_PRODUCT (
+    PRODUCT_ID,
     NAME,
     CATEGORY,
     PURPOSE,
@@ -2390,6 +2564,7 @@ INSERT INTO DEPOSIT_PRODUCT (
     CREATED_AT,
     VIEW_COUNT
 ) VALUES (
+    45,
     'Only One 통장 (개인)',
     '입출금자유',
     '개인자금관리',
@@ -2429,7 +2604,10 @@ INSERT INTO DEPOSIT_PRODUCT (
     0
 );
 
+
+-- 46: Only One 주니어 통장
 INSERT INTO DEPOSIT_PRODUCT (
+    PRODUCT_ID,
     NAME,
     CATEGORY,
     PURPOSE,
@@ -2444,6 +2622,7 @@ INSERT INTO DEPOSIT_PRODUCT (
     CREATED_AT,
     VIEW_COUNT
 ) VALUES (
+    46,
     'Only One 주니어 통장',
     '입출금자유',
     '청소년자금관리',
@@ -2483,7 +2662,10 @@ INSERT INTO DEPOSIT_PRODUCT (
     0
 );
 
+
+-- 47: BNK보증부대출입금통장
 INSERT INTO DEPOSIT_PRODUCT (
+    PRODUCT_ID,
     NAME,
     CATEGORY,
     PURPOSE,
@@ -2498,6 +2680,7 @@ INSERT INTO DEPOSIT_PRODUCT (
     CREATED_AT,
     VIEW_COUNT
 ) VALUES (
+    47,
     'BNK보증부대출입금통장',
     '입출금자유',
     '대출입금전용',
@@ -2537,7 +2720,10 @@ INSERT INTO DEPOSIT_PRODUCT (
     0
 );
 
+
+-- 48: 공무원연금 평생안심통장
 INSERT INTO DEPOSIT_PRODUCT (
+    PRODUCT_ID,
     NAME,
     CATEGORY,
     PURPOSE,
@@ -2552,6 +2738,7 @@ INSERT INTO DEPOSIT_PRODUCT (
     CREATED_AT,
     VIEW_COUNT
 ) VALUES (
+    48,
     '공무원연금 평생안심통장',
     '입출금자유',
     '연금수급보호',
@@ -2591,7 +2778,10 @@ INSERT INTO DEPOSIT_PRODUCT (
     0
 );
 
+
+-- 49: BNK바운스기업통장
 INSERT INTO DEPOSIT_PRODUCT (
+    PRODUCT_ID,
     NAME,
     CATEGORY,
     PURPOSE,
@@ -2606,6 +2796,7 @@ INSERT INTO DEPOSIT_PRODUCT (
     CREATED_AT,
     VIEW_COUNT
 ) VALUES (
+    49,
     'BNK바운스기업통장',
     '입출금자유',
     '기업단기운용',
@@ -2645,7 +2836,10 @@ INSERT INTO DEPOSIT_PRODUCT (
     0
 );
 
+
+-- 50: BNK공직자우대통장
 INSERT INTO DEPOSIT_PRODUCT (
+    PRODUCT_ID,
     NAME,
     CATEGORY,
     PURPOSE,
@@ -2660,6 +2854,7 @@ INSERT INTO DEPOSIT_PRODUCT (
     CREATED_AT,
     VIEW_COUNT
 ) VALUES (
+    50,
     'BNK공직자우대통장',
     '입출금자유',
     '공무원우대혜택',
@@ -2699,7 +2894,10 @@ INSERT INTO DEPOSIT_PRODUCT (
     0
 );
 
+
+-- 51: BNK국민연금안심통장
 INSERT INTO DEPOSIT_PRODUCT (
+    PRODUCT_ID,
     NAME,
     CATEGORY,
     PURPOSE,
@@ -2714,6 +2912,7 @@ INSERT INTO DEPOSIT_PRODUCT (
     CREATED_AT,
     VIEW_COUNT
 ) VALUES (
+    51,
     'BNK국민연금안심통장',
     '입출금자유',
     '국민연금수급자보호',
@@ -2743,7 +2942,10 @@ INSERT INTO DEPOSIT_PRODUCT (
     0
 );
 
+
+-- 52: BNK행복한아파트통장
 INSERT INTO DEPOSIT_PRODUCT (
+    PRODUCT_ID,
     NAME,
     CATEGORY,
     PURPOSE,
@@ -2758,6 +2960,7 @@ INSERT INTO DEPOSIT_PRODUCT (
     CREATED_AT,
     VIEW_COUNT
 ) VALUES (
+    52,
     'BNK행복한아파트통장',
     '입출금자유',
     '아파트관리비수납',
@@ -2792,7 +2995,10 @@ INSERT INTO DEPOSIT_PRODUCT (
     0
 );
 
+
+-- 53: 백세청춘 연금통장
 INSERT INTO DEPOSIT_PRODUCT (
+    PRODUCT_ID,
     NAME,
     CATEGORY,
     PURPOSE,
@@ -2807,6 +3013,7 @@ INSERT INTO DEPOSIT_PRODUCT (
     CREATED_AT,
     VIEW_COUNT
 ) VALUES (
+    53,
     '백세청춘 연금통장',
     '입출금자유',
     '연금수급자전용',
@@ -2841,7 +3048,10 @@ INSERT INTO DEPOSIT_PRODUCT (
     0
 );
 
+
+-- 54: BNK행복지킴이통장
 INSERT INTO DEPOSIT_PRODUCT (
+    PRODUCT_ID,
     NAME,
     CATEGORY,
     PURPOSE,
@@ -2856,6 +3066,7 @@ INSERT INTO DEPOSIT_PRODUCT (
     CREATED_AT,
     VIEW_COUNT
 ) VALUES (
+    54,
     'BNK행복지킴이통장',
     '입출금자유',
     '압류금지급여보호',
@@ -2885,7 +3096,10 @@ INSERT INTO DEPOSIT_PRODUCT (
     0
 );
 
+
+-- 55: 당선드림통장
 INSERT INTO DEPOSIT_PRODUCT (
+    PRODUCT_ID,
     NAME,
     CATEGORY,
     PURPOSE,
@@ -2900,6 +3114,7 @@ INSERT INTO DEPOSIT_PRODUCT (
     CREATED_AT,
     VIEW_COUNT
 ) VALUES (
+    55,
     '당선드림통장',
     '입출금자유',
     '선거자금관리',
@@ -2929,7 +3144,10 @@ INSERT INTO DEPOSIT_PRODUCT (
     0
 );
 
+
+-- 56: 종교우대통장
 INSERT INTO DEPOSIT_PRODUCT (
+    PRODUCT_ID,
     NAME,
     CATEGORY,
     PURPOSE,
@@ -2944,6 +3162,7 @@ INSERT INTO DEPOSIT_PRODUCT (
     CREATED_AT,
     VIEW_COUNT
 ) VALUES (
+    56,
     '종교우대통장',
     '입출금자유',
     '종교단체연동',
@@ -2978,7 +3197,10 @@ INSERT INTO DEPOSIT_PRODUCT (
     0
 );
 
+
+-- 57: 초단기슈퍼통장
 INSERT INTO DEPOSIT_PRODUCT (
+    PRODUCT_ID,
     NAME,
     CATEGORY,
     PURPOSE,
@@ -2993,6 +3215,7 @@ INSERT INTO DEPOSIT_PRODUCT (
     CREATED_AT,
     VIEW_COUNT
 ) VALUES (
+    57,
     '초단기슈퍼통장',
     '입출금자유',
     '단기자금운용',
@@ -3022,7 +3245,10 @@ INSERT INTO DEPOSIT_PRODUCT (
     0
 );
 
+
+-- 58: 뱅크라인통장
 INSERT INTO DEPOSIT_PRODUCT (
+    PRODUCT_ID,
     NAME,
     CATEGORY,
     PURPOSE,
@@ -3037,6 +3263,7 @@ INSERT INTO DEPOSIT_PRODUCT (
     CREATED_AT,
     VIEW_COUNT
 ) VALUES (
+    58,
     '뱅크라인통장',
     '입출금자유',
     '공동상품/학생우대',
@@ -3066,7 +3293,10 @@ INSERT INTO DEPOSIT_PRODUCT (
     0
 );
 
+
+-- 59: 자유저축예금
 INSERT INTO DEPOSIT_PRODUCT (
+    PRODUCT_ID,
     NAME,
     CATEGORY,
     PURPOSE,
@@ -3081,6 +3311,7 @@ INSERT INTO DEPOSIT_PRODUCT (
     CREATED_AT,
     VIEW_COUNT
 ) VALUES (
+    59,
     '자유저축예금',
     '입출금자유',
     '일반자금관리',
@@ -3110,7 +3341,10 @@ INSERT INTO DEPOSIT_PRODUCT (
     0
 );
 
+
+-- 60: BNK증권플러스통장
 INSERT INTO DEPOSIT_PRODUCT (
+    PRODUCT_ID,
     NAME,
     CATEGORY,
     PURPOSE,
@@ -3125,6 +3359,7 @@ INSERT INTO DEPOSIT_PRODUCT (
     CREATED_AT,
     VIEW_COUNT
 ) VALUES (
+    60,
     'BNK증권플러스통장',
     '입출금자유',
     '증권연동예금',
@@ -3159,9 +3394,9 @@ commit;
 SET DEFINE ON;
 
 
-----------
-
+-- 69: 오징어 모임통장 시즌2
 INSERT INTO DEPOSIT_PRODUCT (
+    PRODUCT_ID,
     NAME,
     CATEGORY,
     PURPOSE,
@@ -3176,6 +3411,7 @@ INSERT INTO DEPOSIT_PRODUCT (
     CREATED_AT,
     VIEW_COUNT
 ) VALUES (
+    69,
     '오징어 모임통장 시즌2',
     '입출금자유',
     '모임관리',
@@ -3225,7 +3461,10 @@ INSERT INTO DEPOSIT_PRODUCT (
     200
 );
 
+
+-- 70: 롯데자이언츠 승리기원적금 UPGRADE
 INSERT INTO DEPOSIT_PRODUCT (
+    PRODUCT_ID,
     NAME,
     CATEGORY,
     PURPOSE,
@@ -3240,6 +3479,7 @@ INSERT INTO DEPOSIT_PRODUCT (
     CREATED_AT,
     VIEW_COUNT
 ) VALUES (
+    70,
     '롯데자이언츠 승리기원적금 UPGRADE',
     '적금',
     '목돈마련',
@@ -3289,7 +3529,10 @@ INSERT INTO DEPOSIT_PRODUCT (
     200
 );
 
+
+-- 73: 매일출석적금
 INSERT INTO DEPOSIT_PRODUCT (
+    PRODUCT_ID,
     NAME,
     CATEGORY,
     PURPOSE,
@@ -3304,6 +3547,7 @@ INSERT INTO DEPOSIT_PRODUCT (
     CREATED_AT,
     VIEW_COUNT
 ) VALUES (
+    73,
     '매일출석적금',
     '적금',
     '지역상생',
@@ -3354,4 +3598,5 @@ INSERT INTO DEPOSIT_PRODUCT (
 );
 
 
-commit;
+COMMIT;
+ALTER SEQUENCE PRODUCT_ID_SEQ RESTART START WITH 75;
