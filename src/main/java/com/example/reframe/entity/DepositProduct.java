@@ -18,7 +18,7 @@ import lombok.NoArgsConstructor;
 public class DepositProduct {
 
     @Id
-    @SequenceGenerator(name="deposit_product_seq_gen", sequenceName="PRODUCT_ID_SEQ", allocationSize=1)
+    @SequenceGenerator(name = "deposit_product_seq_gen", sequenceName = "PRODUCT_ID_SEQ", allocationSize = 1)
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "deposit_product_seq_gen")
     @Column(name = "PRODUCT_ID")
     private Long productId;
