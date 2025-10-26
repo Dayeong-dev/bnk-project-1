@@ -53,6 +53,17 @@
 - 결재 프로세스 (상품 등록/수정 시 상위 관리자 승인)  
 - 방문자 통계, 리뷰 분석, 인기 상품 Top 10
 
+## 🖥️ 화면 구성
+### 사용자
+| 메인화면 | 예적금 메인 | 카드 메인 |
+| --- | --- | --- |
+| <img src="images/001.메인화면.png" alt="메인화면" width="200"/> | <img src="images/002.예적금 메인.gif" alt="예적금 메인" width="200"/> | <img src="images/003.카드 메인.gif" alt="카드 메인" width="200"/> |
+
+### 관리자
+| 관리자 로그인 | 관리자 메인(상품관리) | 통계 |
+| --- | --- | --- |
+| <img src="images/101.관리자 로그인.png" alt="관리자 로그인" width="200"/> | <img src="images/102.관리자 메인.png" alt="관리자 메인" width="200"/> | <img src="images/103.통계.png" alt="통계" width="200"/> |
+
 ## 📹 시연 영상
 - 사용자 페이지: [https://youtu.be/tXddm06Cv08](https://youtu.be/tXddm06Cv08)
   
