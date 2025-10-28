@@ -57,12 +57,12 @@
 ### 사용자
 | 메인화면 | 예적금 메인 | 카드 메인 |
 | --- | --- | --- |
-| <img src="images/001.메인화면.png" alt="메인화면" width="200"/> | <img src="images/002.예적금 메인.gif" alt="예적금 메인" width="200"/> | <img src="images/003.카드 메인.gif" alt="카드 메인" width="200"/> |
+| <img src="images/001.main.png" alt="메인화면" width="200"/> | <img src="images/002.deposit_main.gif" alt="예적금 메인" width="200"/> | <img src="images/003.card_main.gif" alt="카드 메인" width="200"/> |
 
 ### 관리자
 | 관리자 로그인 | 관리자 메인(상품관리) | 통계 |
 | --- | --- | --- |
-| <img src="images/101.관리자 로그인.png" alt="관리자 로그인" width="200"/> | <img src="images/102.관리자 메인.png" alt="관리자 메인" width="200"/> | <img src="images/103.통계.png" alt="통계" width="200"/> |
+| <img src="images/101.admin_login.png" alt="관리자 로그인" width="200"/> | <img src="images/102.admin_main.png" alt="관리자 메인" width="200"/> | <img src="images/103.admin_chart.png" alt="통계" width="200"/> |
 
 ## 📹 시연 영상
 - 사용자 페이지: [https://youtu.be/tXddm06Cv08](https://youtu.be/tXddm06Cv08)
